@@ -18,6 +18,21 @@ export class InicioPage implements OnInit {
       name:"Alert",
       redirectTo:"/alert"
     },
+    {
+      icon:"beaker",
+      name:"Avatar",
+      redirectTo:"/avatar"
+    },
+    {
+      icon:"radio-button-on",
+      name:"Botones y router",
+      redirectTo:"/botones"
+    },
+    {
+      icon:"card",
+      name:"Cards",
+      redirectTo:"/card"
+    },
   ];
 
   constructor() { }
